@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+id 战车的id 1开头 M系 2开头S系 3开头D系
+icon
+lv
+lock 解锁等级 0 为金币坦克
+lock='1' type 战车的类型 l轻型  m中型 h重型 g为金币战车
+name 战车的名字
+hp 战车的血量
+chuan 穿透率
+attack 杀伤力
+shoot_rate 射击速度
+amor 装甲厚度
+move_speed 移动速度
+ -->
+<tanks>
+<tk id='1000' icon='USA-T1_Cunningham' lv='Ⅰ' lock='1' type='l' name='T1“科宁汉姆”' hp='105' chuan='53' attack='36' shoot_rate='30' armor='39' move_speed='41'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='100'/>
+<des>T1“科宁汉姆”轻型坦克是美国1922年开始研制的早期坦克，尽管经过多年的研制，但T1轻型坦克仍然存在着可靠性等缺陷，直到1928年研制工作终止，T1“科宁汉姆”轻型坦克也没有投入批量生产，也没有服役的记录。</des>
+</tk>
+<tk id='1001' icon='USA-M2_lt' lv='Ⅱ' lock='1' type='l' name='M2 轻型坦克' hp='140' chuan='27' attack='8' shoot_rate='99' armor='25' move_speed='58'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='100'/>
+<des>1935年，美国根据维克斯6吨坦克研制了M2轻型坦克，它的主要武器是一挺安装在单人炮塔里的12.7毫米机枪。这种原型车仅仅制造了10辆。之后，根据军方要求，M2安装了两个独立的小机枪塔，机枪口径也换成7.62毫米。</des>
+</tk>
+<tk id='1002' icon='USA-T2_lt' lv='Ⅱ' lock='0' type='l' name='T2 轻型坦克' hp='150' chuan='41' attack='12' shoot_rate='108' armor='17' move_speed='72'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='100'/>
+<des>使用维克斯悬挂的M2坦克原型。1934年定型后，因为悬挂不能提供足够的稳定性而被要求重新设计。并没有投入量产。</des>
+</tk>
+<tk id='1003' icon='usa-t7_combat_car' lv='Ⅱ' lock='2' type='l' name='T7战斗车' hp='150' chuan='27' attack='8' shoot_rate='118' armor='12' move_speed='56'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='100'/>
+<des>为美国骑兵研制的半履带战车。第一辆原型车的测试一直从1937年4月进行到1939年。在这之后因为美国陆军更青睐于履带式战车，该项目被终止。</des>
+</tk>
+<tk id='1004' icon='usa-t1_e6' lv='Ⅱ' lock='2' type='l' name='T1E6' hp='160' chuan='53' attack='36' shoot_rate='42' armor='15' move_speed='48'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='100'/>
+<des>为美国骑兵研制的半履带战车。第一辆原型车的测试一直从1937年4月进行到1939年。在这之后因为美国陆军更青睐于履带式战车，该项目被终止。</des>
+</tk>
+<tk id='1005' icon='USA-M22_Locust' lv='Ⅲ' lock='0' type='l' name='M22“蝉”式' hp='250' chuan='78' attack='50' shoot_rate='26' armor='25' move_speed='64'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='100'/>
+<des>美军于1941年2月便决定研制空降坦克，英国人得知此事后，积极促进。美国的马蒙-惠灵顿公司于1941年5月制成了第一辆样车，称为T9轻型空降坦克。后定名为M22“蝉”式空降坦克。到1944年2月停产时，共生产了830辆。</des>
+</tk>
+<tk id='1006' icon='USA-M3_Stuart' lv='Ⅲ' lock='4' type='l' name='M3“斯图亚特”' hp='220' chuan='70' attack='50' shoot_rate='26' armor='38' move_speed='61'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='80'/>
+<des>1941年10月，改进型的M3斯图亚特坦克开始投产。11月到次年2月就生产了1200辆新型M3坦克，春天就投入了北非战场。它的功绩主要是生产数量足够美军和盟军的需求。它是二战中美国生产的数量最多的一种坦克。</des>
+</tk>
+<tk id='1007' icon='USA-MTLS-1GI4' lv='Ⅲ' lock='0' type='l' name='MTLS-1GI4' hp='250' chuan='61' attack='50' shoot_rate='38' armor='38' move_speed='42'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='100'/>
+<des>1940年荷属东印度群岛向美国玛蒙·赫林顿公司订购了200辆MTLS-1GI4中型坦克，以抵御日本即将到来的入侵。然而在这批坦克交付之前，日本就已经占领了东印度群岛。MTLS-1GI4安装的两门37毫米全自动机关炮是其最大特色。</des>
+</tk>
+<tk id='1008' icon='USA-M5_Stuart' lv='Ⅳ' lock='4' type='l' name='M5“斯图亚特”' hp='320' chuan='78' attack='50' shoot_rate='26' armor='38' move_speed='64'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='60'/>
+<des>对M3“斯图亚特”坦克的进一步改进型，M5“斯图亚特”生产开始于1942年4月。在1944年6月共有8884辆两种不同的改进型被生产出来，并且广泛用于各个战区。</des>
+</tk>
+<tk id='1009' icon='USA-M24_Chaffee' lv='Ⅴ' lock='4' type='l' name='M24“霞飞”' hp='400' chuan='143' attack='175' shoot_rate='16' armor='38' move_speed='77'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='50'/>
+<des>美国通用汽车卡迪拉克汽车分公司于1943年3月开始研制M24轻型坦克，当年10月制出首辆样车T24坦克。1944年4月试生产了24辆以后，该坦克被正式命名为M24“霞飞”轻型坦克。该坦克的火力和装甲防护力超过了二战中所有的轻型坦克。</des>
+</tk>
+<tk id='1010' icon='AnnoT21' lv='Ⅵ' lock='6' type='l' name='T21' hp='590' chuan='127' attack='175' shoot_rate='16' armor='28' move_speed='56'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='40'/>
+<des>T20坦克的轻量版，采用加长的M7车体。1943年上半年设计的，优化了装甲和武器，最终没能完成样车。</des>
+</tk>
+<tk id='1011' icon='AnnoT37' lv='Ⅵ' lock='6' type='l' name='T37' hp='630' chuan='143' attack='175' shoot_rate='18' armor='31' move_speed='66'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='40'/>
+<des>轻型坦克T37是由底特律阿森纳在1940年代后期开发替代“霞飞”。一个订单是三原型。后来，一些创新技术被应用于开发的T41和M41坦克。</des>
+</tk>
+<tk id='1012' icon='9216' lv='Ⅶ' lock='8' type='l' name='M41斗牛犬' hp='860' chuan='199' attack='185' shoot_rate='20' armor='25' move_speed='72'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='30'/>
+<des>T37实验型的进一步发展。1949年开始试验。在1950年，签署了大规模生产的合同。坦克是由通用汽车旗下的凯迪拉克汽车司生产。</des>
+</tk>
+<tk id='1013' icon='AnnoT71' lv='Ⅶ' lock='8' type='l' name='T71' hp='840' chuan='177' attack='115' shoot_rate='16' armor='25' move_speed='64'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='30'/>
+<des>一种安装摇摆炮塔的空降坦克。1952-1953年完成设计，配备了轻量化的火炮，仅完成木制模型。</des>
+</tk>
+<tk id='1014' icon='AnnoT49' lv='Ⅷ' lock='10' type='l' name='T49' hp='1000' chuan='250' attack='320' shoot_rate='10' armor='25' move_speed='72'>
+<req pao='100' pao_lv='1' ta='100' ta_lv='1' fdj='200' fdj_lv='1' dai='200' dai_lv='1' money='2000' rate='10'/>
+<des>M41轻型坦克增大的炮塔并搭载90毫米火炮的升级版。试验于1954年5月5日开始。虽然试验取得成功，但由于军事当局缺乏兴趣，该战车没有大规模生产。</des>
+</tk>
+</tanks>

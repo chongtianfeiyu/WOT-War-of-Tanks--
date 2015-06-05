@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+1开头 火炮
+2开头 炮塔
+3开头 发动机
+4开头 履带
+5开头 消耗品
+6开头 金币炮弹
+ -->
+<items>
+<it id='1000' icon='pao_guan' lv='' money='' name='75mm M7' des='描述文字'/>
+<it id='1001' icon='pao_guan' lv='' money='' name='76mm M1A1' des='描述文字'/>
+<it id='1002' icon='pao_guan' lv='' money='' name='76mm M2A2' des='描述文字'/>
+<it id='1003' icon='pao_guan' lv='' money='' name='76mm d' des='描述文字'/>
+<it id='1004' icon='pao_guan' lv='' money='' name='76mm fd' des='描述文字'/>
+<it id='1005' icon='pao_guan' lv='' money='' name='76mm fs' des='描述文字'/>
+
+<it id='2000' icon='pao_tai' lv='' money='' name='M18 M1' des='描述文字'/>
+<it id='2001' icon='pao_tai' lv='' money='' name='M1d M1' des='描述文字'/>
+<it id='2002' icon='pao_tai' lv='' money='' name='M112 M1' des='描述文字'/>
+<it id='2003' icon='pao_tai' lv='' money='' name='Mdf8 M1' des='描述文字'/>
+<it id='2004' icon='pao_tai' lv='' money='' name='M1f M1' des='描述文字'/>
+<it id='2005' icon='pao_tai' lv='' money='' name='M1saf8 M1' des='描述文字'/>
+
+<it id='3000' icon='fa_dong_ji' lv='' money='' name='莱特.C 1' des='描述文字'/>
+<it id='3001' icon='fa_dong_ji' lv='' money='' name='莱特.C 2' des='描述文字'/>
+<it id='3002' icon='fa_dong_ji' lv='' money='' name='莱特.C 3' des='描述文字'/>
+<it id='3003' icon='fa_dong_ji' lv='' money='' name='莱特.C 4' des='描述文字'/>
+<it id='3004' icon='fa_dong_ji' lv='' money='' name='莱特.C 5' des='描述文字'/>
+<it id='3005' icon='fa_dong_ji' lv='' money='' name='莱特.C 6' des='描述文字'/>
+
+<it id='4000' icon='lv_dai' lv='' money='' name='履带1号' des='描述文字'/>
+<it id='4001' icon='lv_dai' lv='' money='' name='履带2号' des='描述文字'/>
+<it id='4002' icon='lv_dai' lv='' money='' name='履带3号' des='描述文字'/>
+<it id='4003' icon='lv_dai' lv='' money='' name='履带4号' des='描述文字'/>
+<it id='4004' icon='lv_dai' lv='' money='' name='履带5号' des='描述文字'/>
+<it id='4005' icon='lv_dai' lv='' money='' name='履带6号' des='描述文字'/>
+
+<it id='5000' icon='bullet0' lv='' money='' name='乌芯穿甲弹' des='克制中型战车'/>
+<it id='5001' icon='bullet1' lv='' money='' name='高爆弹' des='克制轻型战车'/>
+<it id='5002' icon='bullet2' lv='' money='' name='碎甲弹' des='克制重型战车'/>
+
+<it id='6000' icon='silver' lv='' money='' name='银币×1000' des='描述文字'/>
+<it id='6001' icon='silver' lv='' money='' name='银币×2000' des='描述文字'/>
+<it id='6002' icon='silver' lv='' money='' name='银币×3000' des='描述文字'/>
+<it id='6003' icon='silver' lv='' money='' name='银币×4000' des='描述文字'/>
+<it id='6004' icon='silver' lv='' money='' name='银币×6000' des='描述文字'/>
+<it id='6005' icon='silver' lv='' money='' name='银币×6000' des='描述文字'/>
+<it id='6006' icon='silver' lv='' money='' name='银币×7000' des='描述文字'/>
+<it id='6007' icon='silver' lv='' money='' name='银币×8000' des='描述文字'/>
+<it id='6008' icon='silver' lv='' money='' name='银币×9000' des='描述文字'/>
+<it id='6009' icon='silver' lv='' money='' name='银币×10000' des='描述文字'/>
+
+<it id='6010' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6011' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6012' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6013' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6014' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6015' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6016' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6017' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6018' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+<it id='6019' icon='gold' lv='' money='' name='金币×10000' des='描述文字'/>
+
+<it id='6020' icon='gift' lv='' money='' name='礼包' des='描述文字'/>
+</items>
