@@ -1,0 +1,8 @@
+<View sceneWidth="600" sceneHeight="400" sceneColor="0xffffff" sceneBg="" layers="1,1,0,0,第 1 层">
+  <Image url="png.uiLib.bg" x="0" y="0" layer="1" sizeGrid="4,30,4,4" width="472" height="333"/>
+  <List layers="1,1,0" layer="1" x="10" y="58" repeatX="2" repeatY="5" spaceX="2" spaceY="2" var="list">
+    <UIView source="login/ServerRender.xml" layer="1" name="render"/>
+    <VScrollBar skin="png.uiLib.vscroll" x="437" layer="1" width="17" height="264" name="scrollBar" y="0"/>
+  </List>
+  <Label text="选择相应的服务器进入！" x="11.5" y="34" layer="1" width="451" height="18" color="0xcccccc" align="center"/>
+</View>

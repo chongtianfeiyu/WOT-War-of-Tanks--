@@ -1,0 +1,10 @@
+<View sceneWidth="193" sceneHeight="651" sceneColor="0xffffff" sceneBg="" layers="1,1,0,0,第 1 层">
+  <Image url="png.uiLib.bg3" x="0" y="0" layer="1" sizeGrid="8,8,8,8" width="193" height="651"/>
+  <Button label="&lt;" skin="png.uiLib.button" x="9" y="623" layer="1" width="53" height="22" labelColors="#000000,#000000,#000000,#000000"/>
+  <Button label=">" skin="png.uiLib.button" x="131" y="623" layer="1" width="56" height="22" labelColors="#000000,#000000,#000000,#000000"/>
+  <TextInput text="1/10" skin="png.uiLib.textinput" x="65" y="623" layer="1" width="62" height="22" color="0xcccccc" align="center"/>
+  <Image url="png.uiLib.bgs" x="6" y="30" layer="1" width="181" height="589" sizeGrid="5,5,5,5"/>
+  <UIView source="lobby/RankList.xml" x="9" y="34" layer="1"/>
+  <Label text="战斗力排行榜" x="29" y="8" layer="1" color="0xcccccc" width="133" height="18" align="center"/>
+  <Label text="我的荣誉点:12487 排名:10000" x="9" y="598" layer="1" width="176" height="18" color="0xffffff" align="left"/>
+</View>

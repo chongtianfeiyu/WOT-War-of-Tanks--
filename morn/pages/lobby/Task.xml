@@ -1,0 +1,7 @@
+<View sceneWidth="775" sceneHeight="468" sceneColor="0x000000" sceneBg="" layers="1,1,0,0,第 1 层">
+  <List layers="1,1,0" layer="1" x="3" y="25" repeatX="2" repeatY="6" spaceX="2" spaceY="2">
+    <UIView source="lobby/TaskRender.xml" layer="1" name="render"/>
+    <VScrollBar skin="png.uiLib.vscroll" x="734" layer="1" width="17" height="437" name="scrollBar" y="0"/>
+  </List>
+  <Label text="成就的提示文字！！！" x="3" y="2" layer="1" width="714" height="18" color="0xcccccc"/>
+</View>

@@ -1,0 +1,7 @@
+<View sceneWidth="760" sceneHeight="470" sceneColor="0x000000" sceneBg="" layers="1,1,0,0,第 1 层" name="render">
+  <List layers="1,1,0" layer="1" x="-1" y="27" repeatY="10" spaceY="2" var="list">
+    <UIView source="lobby/BattleListRender.xml" layer="1" name="render" y="0"/>
+    <VScrollBar skin="png.uiLib.vscroll" x="733" y="0" layer="1" width="17" height="440" name="scrollBar"/>
+  </List>
+  <Label text="战场的提示文字：创建战场，加入战场，战场模式 巴拉巴拉！！！！" x="3" y="3" layer="1" width="714" height="18" color="0xcccccc"/>
+</View>

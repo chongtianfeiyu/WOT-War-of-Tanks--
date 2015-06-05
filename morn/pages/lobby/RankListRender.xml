@@ -1,0 +1,6 @@
+<View sceneWidth="200" sceneHeight="35" sceneColor="0x000000" sceneBg="" layers="1,1,0,0,第 1 层">
+  <Image url="png.uiLib.bg2" x="0" y="0" layer="1" sizeGrid="4,4,4,4" width="175" height="28" alpha="0.1"/>
+  <Label text="999" x="3" y="6" layer="1" width="27" height="18" color="0xcccccc"/>
+  <Label text="玩家的名字哦" x="34" y="6" layer="1" width="84" height="18" color="0xcccccc"/>
+  <Label text="999999" x="116" y="5" layer="1" width="52" height="18" color="0xcccccc" align="right"/>
+</View>

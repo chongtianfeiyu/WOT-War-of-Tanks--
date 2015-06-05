@@ -1,0 +1,18 @@
+<View sceneWidth="690" sceneHeight="100" sceneColor="0x000000" sceneBg="" layers="2,0,1,0,mouse_over;3,1,1,0,select;1,1,1,0,第 1 层">
+  <Image url="png.uiLib.bg2" x="0" y="0" layer="1" sizeGrid="4,4,4,4" width="550" height="83" alpha="0.1" visible="true" mouseEnabled="true" mouseChildren="true" buttonMode="true"/>
+  <Image url="png.uiLib.tank" x="1" y="1" layer="1" width="122" height="78" var="icon" mouseChildren="false" mouseEnabled="false"/>
+  <Label text="在1953年到1957年研制的用以取代T-54的中型坦克，制造了几辆原型车。当时苏军较为强调核条件下的生存力，所以在1961年该项目被终止，转而发展432工程。" x="114" y="26" layer="1" width="434" height="52" multiline="true" wordWrap="true" color="0x666666" var="txt_desc" size="12" mouseChildren="false" mouseEnabled="false" isHtml="true"/>
+  <Label text="  (14吨   装甲最大厚度18毫米  炮88毫米)" x="215" y="3" layer="1" width="330" height="18" color="0xffffff" var="txt_info" mouseChildren="false" mouseEnabled="false" isHtml="true" align="right"/>
+  <Container layers="1,1,0" layer="1" x="475" y="4" var="stars">
+    <Image url="png.uiLib.star" layer="1" var="star4"/>
+    <Image url="png.uiLib.star" x="13" layer="1" var="star3"/>
+    <Image url="png.uiLib.star" x="26" layer="1" var="star2"/>
+    <Image url="png.uiLib.star" x="39" layer="1" var="star1"/>
+    <Image url="png.uiLib.star" x="52" layer="1" var="star0"/>
+  </Container>
+  <Label text="430工程" x="114" y="3" layer="1" width="130" height="18" color="0xcccccc" var="txt_name" mouseChildren="false" mouseEnabled="false" isHtml="true"/>
+  <Label text="已经解锁" x="2" y="61" layer="1" width="125" height="18" color="0xcccccc" var="txt_state" mouseChildren="false" mouseEnabled="false" isHtml="true"/>
+  <Label text="M系" x="2" y="3" layer="1" width="88" height="18" color="0xcccccc" var="txt_left" mouseChildren="false" mouseEnabled="false" isHtml="true"/>
+  <Image url="png.uiLib.mouse_over_tip" x="0" y="0" layer="3" sizeGrid="4,4,4,4" width="548" height="82" var="gou_gun" visible="false" alpha="0.2" mouseChildren="false" mouseEnabled="false"/>
+  <Image url="png.uiLib.mouse_over_tip" x="0" y="0" layer="2" sizeGrid="4,4,4,4" width="548" height="82" var="over_tip" visible="false"/>
+</View>

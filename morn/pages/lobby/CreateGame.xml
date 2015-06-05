@@ -1,0 +1,10 @@
+<View sceneWidth="600" sceneHeight="400" sceneColor="0xffffff" sceneBg="" layers="1,1,0,0,第 1 层">
+  <Image url="png.uiLib.bg" x="1" y="1" layer="1" width="278" height="326" sizeGrid="8,40,8,8"/>
+  <Button label="创建" skin="png.uiLib.button" x="44" y="248" layer="1" width="200" labelColors="0xffffff,0xffffff,0xffffff,0xffffff" var="btn_yes"/>
+  <Button label="取消" skin="png.uiLib.button" x="44" y="285" layer="1" width="200" labelColors="0xffffff,0xffffff,0xffffff,0xffffff" var="btn_no"/>
+  <ComboBox labels="沙漠风暴,密林小镇" skin="png.uiLib.combobox" x="44" y="82" layer="1" width="200" height="23" sizeGrid="4,4,40,4" selectedIndex="0"/>
+  <Label text="地图" x="44" y="56" layer="1" color="0xffffff" width="39" height="18"/>
+  <Label text="人数" x="44" y="125" layer="1" color="0xffffff" width="39" height="18"/>
+  <ComboBox labels="3v3,5v5,10v10" skin="png.uiLib.combobox" x="44" y="154" layer="1" width="200" height="23" sizeGrid="4,4,40,4" selectedIndex="0"/>
+  <Label text="创建战场" x="101" y="4" layer="1" color="0xffffff" width="90" height="18" align="center"/>
+</View>

@@ -1,0 +1,5 @@
+<Dialog sceneWidth="600" sceneHeight="400" sceneColor="0xffffff" sceneBg="" layers="1,1,0,0,第 1 层">
+  <Image url="png.uiLib.bg" x="0" y="0" layer="1" width="426" height="212" sizeGrid="4,30,4,4"/>
+  <Label text="提示信息！！" x="48" y="63" layer="1" width="338" height="95" color="0xcccccc" multiline="true" wordWrap="true" isHtml="true" var="txt_msg"/>
+  <Button label="OK" skin="png.uiLib.button" x="167" y="178" layer="1" labelColors="#000000,#000000,#000000,#000000" width="94" height="22" name="close"/>
+</Dialog>

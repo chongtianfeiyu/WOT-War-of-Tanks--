@@ -1,0 +1,4 @@
+<View sceneWidth="60" sceneHeight="60" sceneColor="0x0" sceneBg="" layers="1,1,0,0,第 1 层">
+  <Image url="jpg.uiLib.pao_guan" x="0" y="0" layer="1" var="icon" mouseChildren="false" mouseEnabled="false"/>
+  <Label text="999" x="4" y="40" layer="1" width="53" height="18" color="0xffffff" var="txt_num" mouseChildren="false" mouseEnabled="false" isHtml="true" align="right" stroke="0x000000,1,2,2,4,1"/>
+</View>

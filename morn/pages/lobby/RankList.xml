@@ -1,0 +1,5 @@
+<View sceneWidth="200" sceneHeight="700" sceneColor="0x000000" sceneBg="" layers="1,1,0,0,第 1 层" repeatY="20">
+  <List layers="1,1,0" layer="1" x="1" y="0" repeatY="20">
+    <UIView source="lobby/RankListRender.xml" layer="1" name="render"/>
+  </List>
+</View>

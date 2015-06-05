@@ -1,0 +1,13 @@
+<View sceneWidth="775" sceneHeight="468" sceneColor="0x000000" sceneBg="" layers="1,1,0,0,第 1 层">
+  <List layers="1,1,0" layer="1" x="2" y="25" repeatX="2" repeatY="6" spaceX="2" spaceY="2" var="list">
+    <VScrollBar skin="png.uiLib.vscroll" x="734" layer="1" width="17" height="437" name="scrollBar" y="0"/>
+    <UIView source="lobby/StorageRender.xml" layer="1" name="render" y="0"/>
+  </List>
+  <CheckBox label="火炮残件" skin="png.uiLib.checkbox" x="365" y="4.5" layer="1" labelColors="0xCCCCCC"/>
+  <CheckBox label="炮塔残件" skin="png.uiLib.checkbox" x="288" y="4.5" layer="1" labelColors="0xCCCCCC"/>
+  <CheckBox label="发动机残件" skin="png.uiLib.checkbox" x="199" y="4.5" layer="1" labelColors="0xCCCCCC"/>
+  <CheckBox label="履带残件" skin="png.uiLib.checkbox" x="122" y="4.5" layer="1" labelColors="0xCCCCCC"/>
+  <CheckBox label="消耗品" skin="png.uiLib.checkbox" x="4" y="4.5" layer="1" labelColors="0xCCCCCC"/>
+  <CheckBox label="炮弹" skin="png.uiLib.checkbox" x="69" y="4.5" layer="1" labelColors="0xCCCCCC"/>
+  <Button label="随机获得物品" skin="png.uiLib.button" x="655" y="1" layer="1" labelColors="0xffffff,0xffffff,0xffffff,0xffffff" var="btn_add" width="99" height="22"/>
+</View>

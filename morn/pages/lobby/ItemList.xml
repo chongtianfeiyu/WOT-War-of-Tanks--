@@ -1,0 +1,6 @@
+<View sceneWidth="568" sceneHeight="464" sceneColor="0x000000" sceneBg="" layers="1,1,0,0,第 1 层">
+  <List layers="1,1,0" layer="1" repeatY="5" spaceY="3" x="0" y="0" var="list">
+    <VScrollBar skin="png.uiLib.vscroll" x="552" y="1" layer="1" width="17" height="425" name="scrollBar"/>
+    <UIView source="lobby/ItemRender.xml" x="0" y="0" layer="1" name="render"/>
+  </List>
+</View>

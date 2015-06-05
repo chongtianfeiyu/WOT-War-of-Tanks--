@@ -1,0 +1,10 @@
+<Dialog sceneWidth="600" sceneHeight="400" sceneColor="0xffffff" sceneBg="" layers="1,1,0,0,第 1 层">
+  <Image url="png.uiLib.bg" x="1" y="0" layer="1" sizeGrid="4,30,4,4" width="420" height="410" var="bg"/>
+  <Image url="png.uiLib.bgs" x="10" y="29" layer="1" width="402" height="331" sizeGrid="5,5,5,5" var="black"/>
+  <Button label="关闭" skin="png.uiLib.button" x="138.5" y="368" layer="1" labelColors="0xffffff,0xffffff,0xffffff,0xffffff" width="145" height="30" name="close"/>
+  <Label text="物品" x="153" y="3" layer="1" width="116" height="18" align="center" color="0x999999" var="txt_title"/>
+  <List layers="1,1,0" layer="1" x="15.5" y="34" repeatY="4" spaceY="2" var="list">
+    <UIView source="common/GetRender.xml" layer="1" name="render"/>
+    <VScrollBar skin="png.uiLib.vscroll" x="374" layer="1" width="17" height="320" name="scrollBar" y="0"/>
+  </List>
+</Dialog>
